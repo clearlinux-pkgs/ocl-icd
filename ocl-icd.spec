@@ -4,7 +4,7 @@
 #
 Name     : ocl-icd
 Version  : 2.2.9
-Release  : 1
+Release  : 2
 URL      : https://github.com/OCL-dev/ocl-icd/archive/v2.2.9.tar.gz
 Source0  : https://github.com/OCL-dev/ocl-icd/archive/v2.2.9.tar.gz
 Summary  : Open Computing Language generic Installable Client Driver support
@@ -13,6 +13,7 @@ License  : BSD-2-Clause
 Requires: ocl-icd-lib
 Requires: ocl-icd-doc
 BuildRequires : ruby
+Patch1: 0001-Use-stateless-path-for-system-OpenCL-implementations.patch
 
 %description
 This package aims at creating an Open Source alternative to vendor specific
@@ -47,6 +48,7 @@ lib components for the ocl-icd package.
 %prep
 cd ..
 %setup -q -n ocl-icd-2.2.9
+%patch1 -p1
 
 %build
 %reconfigure --disable-static
