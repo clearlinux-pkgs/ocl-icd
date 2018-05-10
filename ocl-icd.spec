@@ -4,7 +4,7 @@
 #
 Name     : ocl-icd
 Version  : 2.2.10
-Release  : 9
+Release  : 10
 URL      : https://github.com/OCL-dev/ocl-icd/archive/v2.2.10.tar.gz
 Source0  : https://github.com/OCL-dev/ocl-icd/archive/v2.2.10.tar.gz
 Summary  : Open Computing Language generic Installable Client Driver support
