@@ -4,7 +4,7 @@
 #
 Name     : ocl-icd
 Version  : 2.2.12
-Release  : 12
+Release  : 13
 URL      : https://github.com/OCL-dev/ocl-icd/archive/v2.2.12/ocl-icd-2.2.12.tar.gz
 Source0  : https://github.com/OCL-dev/ocl-icd/archive/v2.2.12/ocl-icd-2.2.12.tar.gz
 Summary  : OpenCL ICD Bindings
