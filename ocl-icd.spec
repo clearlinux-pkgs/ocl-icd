@@ -5,7 +5,7 @@
 #
 Name     : ocl-icd
 Version  : 2.3.2
-Release  : 18
+Release  : 19
 URL      : https://github.com/OCL-dev/ocl-icd/archive/v2.3.2/ocl-icd-2.3.2.tar.gz
 Source0  : https://github.com/OCL-dev/ocl-icd/archive/v2.3.2/ocl-icd-2.3.2.tar.gz
 Summary  : Open Computing Language generic Installable Client Driver support
